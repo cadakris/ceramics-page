@@ -1,0 +1,228 @@
+h4 {
+  font-family: 'Hind Gunter', sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FAF6F2;
+  font-weight: bold;
+}
+
+
+/* Navbar */
+
+
+
+.navbar {
+  font-family: 'Hind Gunter', sans-serif;
+  background-color: #B1A6A4;
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }}
+
+/* Title Image */
+
+.jumbotron {
+  width: 100%;
+  min-height: 550px;
+  background-image: url('images/ceramics-examples-2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  color: #FAF6F2;
+  font-weight: bold;
+  white-space: nowrap;
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+.heading-content {
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  font-weight: 900;
+  padding: 1.5% 12.5% 1.5% 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .big-heading {
+    font-size: 70px;
+  }
+  .heading-content {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .big-heading {
+    font-size: 40px;
+  }
+  .heading-content {
+    font-size: 16px;
+  }
+}
+
+/* Social Media  */
+#social-media-section {
+  text-align: right;
+  padding-right: 8%;
+}
+
+.social-btn {
+  font-size: 1.5em;
+  color: #697184;
+}
+
+
+/* Product grid */
+
+#product-row {
+  padding: 0 3.5% 6%;
+}
+
+.product-section {
+  padding-bottom: 5%;
+}
+
+.product {
+  padding: 0;
+  text-align: center;
+}
+
+.product-image {
+  width: 70%; /* You can set the dimensions to whatever you want */
+  height: 100%;
+  object-fit: contain;
+}
+
+.product-description {
+  text-align: left;
+  padding-left: 15%;
+  line-height: .5;
+}
+
+@media screen and (max-width: 765px) {
+  .product-text {
+      font-size: 12px;
+    }
+  .pricing-text {
+      font-size: 10px;
+    }
+  .product-description {
+      padding-bottom: 8%;
+    }}
+
+
+/* Services */
+
+#services {
+  text-align: center;
+  padding: 5% 10%;
+  background-color: #B1A6A4;
+}
+
+.services-container {
+  padding-bottom: 5%;
+}
+
+.pricing-text {
+  color: #646464;
+}
+
+.btn-services {
+  background-color: #697184;
+}
+
+.btn-services:hover {
+  background-color: #FAF6F2;
+  color: #000;
+}
+
+
+/* About Section */
+.about-section {
+  position: absolute;
+}
+
+.about-image-container {
+  width: 50%;
+  height: auto;
+  display: inline-flex;
+}
+
+.video-section {
+  max-width: 100%;
+  padding: 2%;
+}
+
+.about-content-container {
+  width: 50%;
+  float: right;
+  padding: 8% 5% 8% 0;
+  text-align: center;
+}
+
+.about-text {
+  color: #697184;
+}
+
+@media screen and (max-width: 650px) {
+  .about-image-container {
+  width: 100%;
+  }
+
+  .about-content-container {
+    float: none;
+    width: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 0 15% 10%;
+  }
+}
+
+/* Email Form  */
+.email-section {
+  text-align: center;
+  padding: 5% 10%;
+  background-color: #B1A6A4;
+}
+
+.input-box {
+  width: 40%;
+  height: 2em;
+  border: 1px;
+  margin: 10px;
+}
+
+.submit-btn {
+  background-color: #697184;
+}
+
+.submit-btn:hover {
+  background-color: #FAF6F2;
+  color: #000;
+}
+
+
+/* Copyright  */
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  padding: 4% 0;
+}
